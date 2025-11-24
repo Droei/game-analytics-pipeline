@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyi
+*.pytest_cache/
+*.mypy_cache/
+*.ruff_cache/
+*.coverage
+*.hypothesis/
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pytest / testing
+htmlcov/
+coverage.xml
+*.cover
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+*.log
+*.pid
+*.sock
+**/docker-related-config.xml
+**/clickhouse-server.log
+**/clickhouse-server.err.log
+
+# ClickHouse data volume (if accidentally copied)
+clickhouse_data/
