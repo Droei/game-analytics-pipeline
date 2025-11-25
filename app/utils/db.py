@@ -9,6 +9,6 @@ def get_client():
             host="localhost",
             port=8123,
             username="default",
-            password=""
+            password="meep"
         )
     return _client

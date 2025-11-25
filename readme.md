@@ -9,6 +9,7 @@ Setup:
 - Make sure pip is up to date: pip install --upgrade pip
 - Install dependencies: pip install -r requirements.txt
 - Enable the docker-compose to create a clickhouse container (make sure docker is open and leave the .venv): docker compose -f infra\docker-compose.yml up -d
+- Run the project with: uvicorn ingestion.app.main:app --reload
 
 Everything should be ready to go
 
