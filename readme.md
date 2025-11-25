@@ -1,5 +1,10 @@
 # Readme.md still WIP
 
+Python - FastApi - Clickhouse
+- Python is great for data analysis and applying Ai algorithms to finding connections between form data and game data
+- FastApi, personal preference from previous experience, LIGHT WEIGHT BABYYYYY, easy to pick up and amazing documentation
+- Clickhouse, golden standard for anyting analysis based. Works column based rather than row based, meaning its way more efficient with processing analythical requests but falls flat when working with complex databases
+
 Setup:
 - Install docker
 - Install Python
